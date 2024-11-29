@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  *
  * @author 0022216
  */
-public class Aula8 extends javax.swing.JInternalFrame {
+public class TelaAula8_IF_Combo_Login extends javax.swing.JInternalFrame {
     
     public static class roda implements Runnable{
         @Override
@@ -29,7 +29,7 @@ public class Aula8 extends javax.swing.JInternalFrame {
                         System.out.println("User "+user);
                     }
                 } catch (InterruptedException ex) {
-                    Logger.getLogger(Aula8.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(TelaAula8_IF_Combo_Login.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
@@ -107,7 +107,7 @@ public class Aula8 extends javax.swing.JInternalFrame {
     /**
      * Creates new form Aula8
      */
-    public Aula8() {
+    public TelaAula8_IF_Combo_Login() {
         initComponents();
         char[] senhaSecreta = {'e','3','r','4','T','%','y','6'};
         user = new User("user",senhaSecreta,0);

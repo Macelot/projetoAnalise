@@ -20,6 +20,7 @@ Este projeto utiliza a biblioteca Swing para criar interfaces gráficas com menu
 - **Desenhos**: Funcionalidades para desenhar formas e gráficos na tela usando a biblioteca `stddraw`.
 - **Gráficos**: Geração de gráficos utilizando o `JFreeChart`.
 - **Criptografia**: Implementação de algoritmos de criptografia.
+[Voltar ao Índice](#índice)
 
 ## Tecnologias Utilizadas
 
@@ -30,6 +31,7 @@ Este projeto utiliza a biblioteca Swing para criar interfaces gráficas com menu
 - **Apache POI**: Biblioteca para trabalhar com arquivos do Microsoft Office.
 - **Log4j**: Framework para registro de logs.
 - **Maven**: Gerenciador de dependências.
+[Voltar ao Índice](#índice)
 
 ## Instalação
 
@@ -52,6 +54,7 @@ Este projeto utiliza a biblioteca Swing para criar interfaces gráficas com menu
     ```bash
     mvn exec:java
     ```
+[Voltar ao Índice](#índice)
 
 ## Dependências
 
@@ -95,6 +98,8 @@ Este projeto utiliza várias bibliotecas externas que são necessárias para o c
     <version>1.0.13</version>
 </dependency>
 ```
+[Voltar ao Índice](#índice)
+
 ## Como Contribuir
 
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
@@ -104,7 +109,14 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 3. Realize as mudanças e commit.
 4. Abra um Pull Request com a descrição clara das alterações.
 5. Teste as alterações para garantir que o projeto funcione como esperado.
+[Voltar ao Índice](#índice)
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](Licenca.md)
+[Voltar ao Índice](#índice)
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, fique à vontade para me contactar:
+[Voltar ao Índice](#índice)
