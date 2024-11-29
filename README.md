@@ -10,6 +10,38 @@ Este projeto utiliza a biblioteca Swing para criar interfaces gráficas com menu
 - **Gráficos**: Geração de gráficos utilizando o `JFreeChart`.
 - **Criptografia**: Implementação de algoritmos de criptografia.
 
+## Tecnologias Utilizadas
+
+- **Java**: Linguagem principal do projeto, JDK 21.
+- **Swing**: Biblioteca para construção de interfaces gráficas.
+- **stddraw**: Biblioteca para criação de desenhos gráficos.
+- **JFreeChart**: Biblioteca para gerar gráficos.
+- **Apache POI**: Biblioteca para trabalhar com arquivos do Microsoft Office.
+- **Log4j**: Framework para registro de logs.
+- **Maven**: Gerenciador de dependências.
+
+## Instalação
+
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+2. **Instale as dependências**:
+   Se estiver utilizando Maven, as dependências serão gerenciadas automaticamente. Para instalar o projeto, execute:
+    ```bash
+    mvn clean install
+    ```
+
+3. **Configuração no IDE**:
+    - Importe o projeto em sua IDE preferida (como IntelliJ IDEA, Eclipse).
+    - Certifique-se de que todas as dependências estão resolvidas.
+
+4. **Executar a aplicação**:
+    Execute o seguinte comando para rodar a aplicação:
+    ```bash
+    mvn exec:java
+    ```
+
 ## Dependências
 
 Este projeto utiliza várias bibliotecas externas que são necessárias para o correto funcionamento da aplicação. Abaixo estão as dependências Maven para o seu `pom.xml`:
@@ -51,3 +83,13 @@ Este projeto utiliza várias bibliotecas externas que são necessárias para o c
     <artifactId>jfreechart</artifactId>
     <version>1.0.13</version>
 </dependency>
+
+## Como Contribuir
+
+Se você deseja contribuir para este projeto, siga as etapas abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua funcionalidade ou correção de bug.
+3. Realize as mudanças e commit.
+4. Abra um Pull Request com a descrição clara das alterações.
+5. Teste as alterações para garantir que o projeto funcione como esperado.
