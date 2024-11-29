@@ -220,7 +220,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
-        Aula4SeparaConta tela = new Aula4SeparaConta();
+        TelaAula4_Separa_Conta_Cript tela = new TelaAula4_Separa_Conta_Cript();
         area.add(tela);
         tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
@@ -307,7 +307,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
         // TODO add your handling code here:
-        Aula8 tela = new Aula8();
+        TelaAula8_IF_Combo_Login tela = new TelaAula8_IF_Combo_Login();
         area.add(tela);
         tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
