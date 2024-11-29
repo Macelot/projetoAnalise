@@ -83,7 +83,7 @@ Este projeto utiliza várias bibliotecas externas que são necessárias para o c
     <artifactId>jfreechart</artifactId>
     <version>1.0.13</version>
 </dependency>
-
+```
 ## Como Contribuir
 
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
