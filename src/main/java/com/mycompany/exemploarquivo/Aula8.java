@@ -26,6 +26,7 @@ public class Aula8 extends javax.swing.JInternalFrame {
                         //user.setActive();
                         //user.setError(0);
                         System.out.println("User "+user);
+                        System.out.println("User "+user);
                     }
                 } catch (InterruptedException ex) {
                     Logger.getLogger(Aula8.class.getName()).log(Level.SEVERE, null, ex);
