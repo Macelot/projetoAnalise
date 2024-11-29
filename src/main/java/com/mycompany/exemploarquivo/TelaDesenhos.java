@@ -108,14 +108,14 @@ public class TelaDesenhos extends javax.swing.JInternalFrame {
             }
         });
 
-        jButton7.setText("Thread");
+        jButton7.setText("For normal");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
-        jButton8.setText("Thread RUN");
+        jButton8.setText("For na Thread");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -205,7 +205,7 @@ public class TelaDesenhos extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         int r,g,b;
         double x,y,raio;
-        for (int i = 0; i < 50000; i++) {
+        for (int i = 0; i < 500; i++) {
             r = (int) (Math.random()*255);
             g = (int) (Math.random()*255);
             b = (int) (Math.random()*255);

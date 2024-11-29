@@ -29,6 +29,7 @@ public class Menu extends javax.swing.JFrame {
      */
     public Menu() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -41,6 +42,7 @@ public class Menu extends javax.swing.JFrame {
     private void initComponents() {
 
         jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
         jButton1 = new javax.swing.JButton();
         area = new javax.swing.JDesktopPane();
         jButton2 = new javax.swing.JButton();
@@ -53,10 +55,13 @@ public class Menu extends javax.swing.JFrame {
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem7 = new javax.swing.JMenuItem();
 
         jMenuItem6.setText("jMenuItem6");
+
+        jMenuItem8.setText("jMenuItem8");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -85,7 +90,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("jButton3");
+        jButton3.setText("Testa print e println");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -138,6 +143,14 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu2.add(jMenuItem4);
 
+        jMenuItem9.setText("Desenhos Atividade");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem9);
+
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Gráficos");
@@ -159,7 +172,7 @@ public class Menu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(461, Short.MAX_VALUE)
+                .addContainerGap(404, Short.MAX_VALUE)
                 .addComponent(jButton3)
                 .addGap(85, 85, 85)
                 .addComponent(jButton2)
@@ -183,6 +196,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -313,6 +327,13 @@ public class Menu extends javax.swing.JFrame {
         tela.setVisible(true);
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        // TODO add your handling code here:
+        TelaDesenhosAtividade tela = new TelaDesenhosAtividade();
+        area.add(tela);
+        tela.setVisible(true);
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -325,8 +346,8 @@ public class Menu extends javax.swing.JFrame {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
-                    //javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    javax.swing.UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    //javax.swing.UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
                     break;
                 }
             }
@@ -366,5 +387,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,5 +1,16 @@
 # Projeto Swing com JInternalFrame, Desenhos e Gráficos
 
+## Índice
+1. [Descrição](#descrição)
+2. [Funcionalidades](#funcionalidades)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Instalação](#instalação)
+5. [Exemplo de Uso](#exemplo-de-uso)
+6. [Dependências](#dependências)
+7. [Como Contribuir](#como-contribuir)
+8. [Licença](#licença)
+9. [Contato](#contato)
+
 Este projeto utiliza a biblioteca Swing para criar interfaces gráficas com menus e exemplos de `JInternalFrame`. Além disso, ele oferece funcionalidades de criptografia e desenhos, utilizando a biblioteca `stddraw`. Também são incluídos gráficos gerados com `JFreeChart`.
 
 ## Funcionalidades
@@ -93,3 +104,7 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 3. Realize as mudanças e commit.
 4. Abra um Pull Request com a descrição clara das alterações.
 5. Teste as alterações para garantir que o projeto funcione como esperado.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
